@@ -12,11 +12,15 @@ h1 {
 }
  
 /* (B) MOVING TICKER WRAPPER */
-.hmove { display: flex; }
+.hmove { 
+  display: flex; 
+
+}
 
 /* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
 .hitem {
   flex-shrink: 0;
+  flex-direction: row;
   width: 90%;
   box-sizing: border-box;
   padding: 0px;
